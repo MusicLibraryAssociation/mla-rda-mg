@@ -9698,5 +9698,6 @@ ${caret}</String>
     <projectTree name="MLA%20External%20Documentation.xpr">
         <folder path="."/>
         <folder path="MLA_External_Documentation/"/>
+        <folder path="MLA_External_Documentation/out/webhelp-responsive/oxygen-webhelp/"/>
     </projectTree>
 </project>
