@@ -7160,19 +7160,29 @@ The set parameters are taken into account for XSLT, DITA, Chemistry and ANT Tran
                         <Boolean>false</Boolean>
                     </entry>
                     <entry>
+                        <String>key.publishing.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>keys.context</String>
                         <String>${pdu}/MLA_External_Documentation/main.ditamap</String>
+                    </entry>
+                    <entry>
+                        <String>publishing.templates.gallery.directories</String>
+                        <String-array>
+                            <String>${pd}\MLA_External_Documentation\Templates\</String>
+                        </String-array>
                     </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/Content/frontmatter_notices.dita</String>
+                                    <String>MLA_External_Documentation/main.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>RDA Metadata Guidance - PDF</String>
+                                        <String>RDA Metadata Guidance - Web</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -7188,11 +7198,11 @@ The set parameters are taken into account for XSLT, DITA, Chemistry and ANT Tran
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/main.ditamap</String>
+                                    <String>MLA_External_Documentation/Content/frontmatter_notices.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>RDA Metadata Guidance - Web</String>
+                                        <String>RDA Metadata Guidance - PDF</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -9062,13 +9072,13 @@ The set parameters are taken into account for XSLT, DITA, Chemistry and ANT Tran
                                 <field name="publishingTemplateDataPO">
                                     <publishingTemplate>
                                         <field name="templateRoot">
-                                            <String>C:/Users/kek67197/OneDrive - University of Georgia/Work From Home/CSS/MLA RDA MG/MLA_External_Documentation/Templates/webhelp_publish/</String>
+                                            <String>${pd}/MLA_External_Documentation/Templates/webhelp_publish</String>
                                         </field>
                                         <field name="descriptorRelativePath">
                                             <String>webhelp_publish.opt</String>
                                         </field>
                                         <field name="isCustomTemplate">
-                                            <Boolean>true</Boolean>
+                                            <Boolean>false</Boolean>
                                         </field>
                                     </publishingTemplate>
                                 </field>
@@ -9832,6 +9842,5 @@ The set parameters are taken into account for XSLT, DITA, Chemistry and ANT Tran
     <projectTree name="MLA%20External%20Documentation.xpr">
         <folder path="."/>
         <folder path="MLA_External_Documentation/"/>
-        <folder path="MLA_External_Documentation/out/webhelp-responsive/oxygen-webhelp/"/>
     </projectTree>
 </project>
