@@ -8,16 +8,16 @@
    <appContext helpID="lrm_and_rda_concepts"
                path="Content/LRM/lrm_and_rda_concepts.html"/>
    <appContext helpID="representative_expressions"
-               path="Content/LRM/representative_expressions.html#representative_expressions"/>
-   <appContext helpID="unique_1030084722"
-               path="Content/LRM/representative_expressions.html#unique_1030084722"/>
+               path="Content/LRM/representative_expressions.html"/>
+   <appContext helpID="unique_1483041850"
+               path="Content/LRM/representative_expressions.html#unique_1483041850"/>
    <appContext helpID="aggregates" path="Content/LRM/aggregates.html"/>
    <appContext helpID="aggregates" path="Content/LRM/aggregates_aaps.html"/>
-   <appContext helpID="musical_we" path="Content/WE/musical_we.html#musical_we"/>
+   <appContext helpID="musical_we" path="Content/WE/musical_we.html"/>
    <appContext helpID="aap_work_expression"
                path="Content/WE/musical_we.html#aap_work_expression"/>
-   <appContext helpID="unique_763223359"
-               path="Content/WE/musical_we.html#unique_763223359"/>
+   <appContext helpID="unique_1990930747"
+               path="Content/WE/musical_we.html#unique_1990930747"/>
    <appContext helpID="bib_description"
                path="Content/Description/bib_description.html"/>
    <appContext helpID="element_overview_marc_bibliographic"
@@ -37,7 +37,7 @@
    <appContext helpID="provider_neutral_cataloging"
                path="Content/Description/Formats/provider_neutral_cataloging.html"/>
    <appContext helpID="bib_formats_electronic"
-               path="Content/Description/Formats/formats_electronic.html#bib_formats_electronic"/>
+               path="Content/Description/Formats/formats_electronic.html"/>
    <appContext helpID="formats_electronic_all"
                path="Content/Description/Formats/formats_electronic.html#formats_electronic_all"/>
    <appContext helpID="formats_electronic_direct"
@@ -47,11 +47,11 @@
    <appContext helpID="formats_electronic_scores"
                path="Content/Description/Formats/formats_electronic.html#formats_electronic_scores"/>
    <appContext helpID="print_reproductions"
-               path="Content/Description/Formats/print_reproductions.html#print_reproductions"/>
+               path="Content/Description/Formats/print_reproductions.html"/>
    <appContext helpID="formats_print_original_pod_publications"
                path="Content/Description/Formats/print_reproductions.html#formats_print_original_pod_publications"/>
    <appContext helpID="formats_sound_recordings"
-               path="Content/Description/Formats/formats_sound_recordings.html#formats_sound_recordings"/>
+               path="Content/Description/Formats/formats_sound_recordings.html"/>
    <appContext helpID="formats_sound_recordings_labels"
                path="Content/Description/Formats/formats_sound_recordings.html#formats_sound_recordings_labels"/>
    <appContext helpID="formats_sound_recordings_performers"
